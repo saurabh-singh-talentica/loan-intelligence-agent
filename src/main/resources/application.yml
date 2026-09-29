@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: loan-intelligence-agent
+
+  ai:
+    openai:
+      api-key:
+      chat:
+        model: gpt-5-mini
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.ai: DEBUG
